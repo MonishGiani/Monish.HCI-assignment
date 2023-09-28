@@ -94,7 +94,7 @@ button[type="submit"]:hover {
 }
 
 .animation-area{
-    background: linear-gradient(to left, #8942a8, #ba382f); width: 100%; height: 100vh; 
+    background: linear-gradient(to left, #8942a8, #ba382f); width: 150%; height: 150vh; 
 }
     
 .box-area{
