@@ -1,0 +1,127 @@
+body {
+    background-image: url('desktop-wallpaper-collection-ambient-light-home-design-ideas-and-lights-on-pinterest-tile-kitchen-floor-ideas.jpg'); 
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    background-color: #007bff;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    border: 0px solid #ccc;
+    text-align: left;
+}
+
+fieldset {
+    border: 0px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"]{
+    width: 96.5%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+
+input[type="date"] {
+    width: 96.5%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+        margin-right: 10px;
+        vertical-align: middle;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 8px;
+ }
+
+ input[type="email"]{
+    width: 96.5%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+ input[type="password"]{
+    width: 96.5%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+ input[type="password confrim"]{
+    width: 96.5%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+button[type="submit"] {
+    background-color: rgba(0, 123, 255, 1.0); 
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    text-align: center;
+    vertical-align: middle;
+    object-position: 100px;
+}
+
