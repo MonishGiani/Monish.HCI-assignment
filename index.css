@@ -1,10 +1,19 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    background-image: url('desktop-wallpaper-collection-ambient-light-home-design-ideas-and-lights-on-pinterest-tile-kitchen-floor-ideas.jpg'); 
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    font-family: Baloo;
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -71,6 +80,29 @@ input[type="checkbox"] {
         padding: 8px;
  }
 
+ input[type="email"]{
+    width: 96.5%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+ input[type="password"]{
+    width: 96.5%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+ input[type="password confrim"]{
+    width: 96.5%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
 
 button[type="submit"] {
     background-color: rgba(0, 123, 255, 1.0); 
@@ -93,83 +125,3 @@ button[type="submit"]:hover {
     object-position: 100px;
 }
 
-.animation-area{
-    background: linear-gradient(to left, #8942a8, #ba382f); width: 150%; height: 150vh; 
-}
-    
-.box-area{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-    
-.box-area li{
-    position: absolute;
-    display: block;
-    list-style: none;
-    width: 25px;
-    height: 25px;
-    background: rgba(255,255,255,0.2);
-    animation: animate 20s linear infinite;
-    bottom: -150px;
-}
-    
-.box-area li:nth-child(1){
-    left: 86%;
-    width: 80px;
-    height: 80px;
-    animation-delay: 0s;
-}
-    
-.box-area li:nth-child(2){ 
-    left: 12%;
-    width: 30px;
-    height: 30px;
-    animation-delay: 1.5s; 
-    animation-duration: 10s;
-}  
-
-.box-area li:nth-child(3) {
-    left: 70%;
-    width: 100px;
-    height: 100px;
-    animation-delay: 5.5s;
-}
-    
-.box-area li:nth-child(4) {
-    left: 42%;
-    width: 150px;
-    height: 150px;
-    animation-delay: 0s;
-    animation-duration: 15s;
-    
-}
-    
-.box-area li:nth-child(5){
-    left: 65%;
-    width: 40px;
-    height: 40px;
-    animation-delay: 0s;
-}
-    
-.box-area li:nth-child(6){
-    left: 15%;
-    width: 110px;
-    height: 118px;
-    animation-delay: 3.5s;
-}
-    
-@keyframes animate{
-    
-    0%{ transform: translateY(0) rotate(0deg); 
-        opacity: 1;
-    }
-   
-    100%{
-        transform: translateY(-800px) rotate(360deg); 
-        opacity: 0; 
-    }
-}
