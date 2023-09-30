@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI Assignment 2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center; vertical-align: middle;">Sign Up</h1>
+    <form>
+        <fieldset>
+            <legend>Planner Details</legend>
+            <table>
+                <tr>
+                    <td>Task</td>
+                    <td><input type="text" name="task"></td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td><input type="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td>Priority</td>
+                    <td>
+                        <label><input type="radio" name="priority" value="high"> High</label>
+                        <label><input type="radio" name="priority" value="medium"> Medium</label>
+                        <label><input type="radio" name="priority" value="low"> Low</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>
+                        <label><input type="checkbox" name="category" value="work"> Work</label>
+                        <label><input type="checkbox" name="category" value="personal"> Personal</label>
+                        <label><input type="checkbox" name="category" value="other"> Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">
+                        <textarea name="notes" cols="30" rows="4" placeholder="Notes"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <input type="submit" value="Add Task">
+    </form>
+</body>
+</html>
